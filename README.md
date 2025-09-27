@@ -23,6 +23,6 @@ Source: Kaggle (Video Game Sales)
 - Python (pandas, matplotlib, seaborn, plotly)  
 - Jupyter Notebooks  
 
-## Next Steps
+## Modeling
 - Add predictive modeling (sales > 1M classification).  
 - Extend analysis to include post-2017 Nintendo Switch sales. 
