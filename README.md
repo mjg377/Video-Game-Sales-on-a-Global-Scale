@@ -15,9 +15,9 @@ Source: Kaggle (Video Game Sales)
 4. What trends emerge over time for Nintendo consoles?  
 
 ## Project Structure
-- `data_cleaning.ipynb` – Preparing and cleaning the dataset.  
-- `eda.ipynb` – Exploratory analysis of Nintendo vs competitors.  
-- `visualizations.ipynb` – Business-focused charts and dashboards.  
+- `data_cleaning_vgsales.ipynb` – Preparing and cleaning the dataset.  
+- `EDA_Nintendo_insights.ipynb` – Exploratory analysis of Nintendo vs competitors.  
+- `figures`folder – Business-focused charts and dashboards.  
 
 ## Tools
 - Python (pandas, matplotlib, seaborn, plotly)  
