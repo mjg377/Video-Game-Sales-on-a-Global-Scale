@@ -44,7 +44,7 @@ To predict whether a game would sell more than **1M copies globally**, I compare
 - **Feature importance** analysis showed that Platform, Genre, and Year strongly influence a game’s likelihood of being a hit, with platforms like Wii and DS dominating.
 
 ### Final Model Selection
-**Random Forest** was chosen as the final model because it generalizes better and offers interpretable feature importances that support business decisions.
+**Random Forest** was chosen as the final model because it generalizes better and offers interpretable attribute importances that support business decisions.
 
 ### Business Takeaways
 - **Platform choice is critical**: Nintendo’s most successful periods align with strong console cycles (Wii, DS).
