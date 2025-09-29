@@ -17,7 +17,8 @@ Source: Kaggle (Video Game Sales)
 ## Project Structure
 - `data_cleaning_vgsales.ipynb` – Preparing and cleaning the dataset.  
 - `EDA_Nintendo_insights.ipynb` – Exploratory analysis of Nintendo vs competitors.  
-- `figures`folder – Business-focused charts and dashboards.  
+- `figures`folder – Business-focused charts and dashboards.
+- 'modeling.ipynb' - Logistic and Random Forest Regression models with Confusion Matrix visuals and Results
 
 ## Tools
 - Python (pandas, matplotlib, seaborn, plotly)  
