@@ -25,7 +25,7 @@ Source: Kaggle (Video Game Sales)
 - Jupyter Notebooks  
 
 ## Modeling
-## 🤖 Predictive Modeling — Hit Game Classification
+## Predictive Modeling — Hit Game Classification
 
 To predict whether a game would sell more than **1M copies globally**, I compared two models: **Logistic Regression** and **Random Forest**.
 
