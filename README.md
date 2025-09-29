@@ -24,5 +24,30 @@ Source: Kaggle (Video Game Sales)
 - Jupyter Notebooks  
 
 ## Modeling
-- Add predictive modeling (sales > 1M classification).  
-- Extend analysis to include post-2017 Nintendo Switch sales. 
+## 🤖 Predictive Modeling — Hit Game Classification
+
+To predict whether a game would sell more than **1M copies globally**, I compared two models: **Logistic Regression** and **Random Forest**.
+
+### Model Performance
+
+| Metric | Logistic Regression | Random Forest |
+|-------|------------------|-------------|
+| Accuracy | 0.61 | **0.70** |
+| Precision (Hit) | 0.19 | **0.22** |
+| Recall (Hit) | **0.67** | 0.54 |
+| F1-Score (Hit) | 0.30 | **0.31** |
+| ROC-AUC | **0.70** | 0.68 |
+
+### Key Insights
+- Logistic Regression achieved **higher recall** (caught more hits), but at the cost of very low precision and overall accuracy.
+- Random Forest provided a **better balance** of precision, recall, and accuracy, making it the preferred model.
+- **Feature importance** analysis showed that Platform, Genre, and Year strongly influence a game’s likelihood of being a hit, with platforms like Wii and DS dominating.
+
+### Final Model Selection
+**Random Forest** was chosen as the final model because it generalizes better and offers interpretable feature importances that support business decisions.
+
+### Business Takeaways
+- **Platform choice is critical**: Nintendo’s most successful periods align with strong console cycles (Wii, DS).
+- **Genre strategy matters**: Platform and Role-Playing titles drive the bulk of hit games.
+- This model can be used as a **screening tool** to flag potential hits for further marketing or production investment.
+
