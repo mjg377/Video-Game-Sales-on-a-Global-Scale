@@ -1,4 +1,4 @@
-# Video Game Sales on a Global-Scale
+# Video Game Sales on a Global Scale
 Business analysis of global video game sales with a focus on Nintendo’s performance, market trends, and competitor insights.
 This project analyzes a dataset of 16,598 video game sales records across platforms, publishers, and regions.  
 The goal is to explore **Nintendo's performance** in the global gaming market, compare it with competitors, and highlight business insights.
